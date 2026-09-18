@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@import "@fontsource/playfair-display/400.css";
+
+
+@layer utilities {
+  .font-playfair {
+    font-family: "Playfair Display", serif;
+  }
+}
+@theme{
+  --color-misty:oklch(92.5% 0.005 214.3);
+}
+
+

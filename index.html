@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jouska — Personal Practice Project</title>
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-[#050505]">
+    <!-- background -->
+    <img
+      src="img/aluminium-os-stock-5120x5120-26368.jpg"
+      alt="background"
+      class="fixed inset-0 w-full h-full object-cover opacity-60 -z-10"
+    />
+    <!-- nav-bar -->
+    <nav class="grid grid-cols-3 items-center px-8 py-2">
+      <img src="img/logo.svg" alt="Jouska logo" class=" opacity-0 md:opacity-100 md:w-32" />
+      <ul
+        class="flex justify-center md:gap-2 text-slate-400 font-playfair text-white/70"
+      >
+        <li>
+          <a
+            href="jouska.html"
+            class="block px-3 py-2 md:px-5 rounded-full border border-transparent hover:backdrop-blur-md hover:border-zinc-400 hover:text-[#ffffff] transition duration-200"
+            >jouska</a
+          >
+        </li>
+        <li>
+          <a
+            href="skills.html"
+            class="block px-3 py-2 md:px-5 rounded-full border border-transparent hover:backdrop-blur-md hover:border-zinc-400 hover:text-[#ffffff] transition duration-200"
+            >skills</a
+          >
+        </li>
+        <li>
+          <a
+            href="#contact"
+            class="block px-3 py-2 md:px-5 rounded-full border border-transparent hover:backdrop-blur-md hover:border-zinc-400 hover:text-[#ffffff] transition duration-200"
+            >contact</a
+          >
+        </li>
+        <li>
+          <a
+            href="anything.html"
+            class="block px-3 py-2 md:px-5 rounded-full border border-transparent hover:backdrop-blur-md hover:border-zinc-400 hover:text-[#ffffff] transition duration-200"
+            >anything</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <!-- float-navbar -->
+    <nav
+      id="navbar"
+      class="fixed bottom-6 left-1/2 -translate-x-1/2 backdrop-blur-md border border-transparent text-white/70 p-[1px] md:px-6 md:py-3 rounded-full flex items-center gap-2 opacity-0 pointer-events-none transition-all duration-500 z-10"
+    >
+      <a
+        href="jouska.html"
+        class="hover:text-[#F5F5F2] hover:bg-zinc-700 px-5 rounded-full py-3 font-playfair transition duration-200"
+        >jouska</a
+      >
+      <a
+        href="skills.html"
+        class="hover:text-[#F5F5F2] hover:bg-zinc-700 px-5 rounded-full py-3 font-playfair transition duration-200"
+        >skills</a
+      >
+      <a
+        href="#contact"
+        class="hover:text-[#F5F5F2] hover:bg-zinc-700 px-5 rounded-full py-3 font-playfair transition duration-200"
+        >contact</a
+      >
+      <a
+        href="anything.html"
+        class="hover:text-[#F5F5F2] hover:bg-zinc-700 px-5 rounded-full py-3 font-playfair transition duration-200"
+        >anything</a
+      >
+    </nav>
+    <!-- section-1 -->
+    <section class="grid grid-cols-1 place-items-center min-h-screen">
+      <div class="text-center">
+        <h1
+          class="text-[#F5F5F2] font-playfair my-7 font-bold text-2xl uppercase"
+        >
+          why are you here?
+        </h1>
+        <p
+          class="text-[#F5F5F2] font-playfair my-4 mx-auto max-w-md px-4"
+        >
+           Still figuring things out, still
+          building. But that's kind of the point.
+        </p>
+        <a
+          href="jouska.html"
+          class="inline-block px-7 py-3 my-4 font-playfair text-[#F5F5F2] rounded-xl text-lg
+                 bg-white/10 backdrop-blur-md border border-white/20
+                 hover:bg-white/20 hover:border-white/35 hover:-translate-y-0.5
+                 transition-all duration-200"
+          >learn more</a
+        >
+      </div>
+    </section>
+    <!-- cards-skills -->
+    <section>
+      <p class="block text-[#F5F5F2] font-playfair text-2xl text-center mb-5">
+        Skills I Have Learned and Am Currently Learning :
+      </p>
+      <div
+        class="text-[#F5F5F2] font-playfair grid grid-cols-1 lg:grid-cols-4 gap-5 m-5 text-center"
+      >
+        <div
+          class="relative bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-6 hover:scale-105 hover:backdrop-blur-lg transition duration-200"
+        >
+          <h2 class="font-bold text-xl uppercase">tailwind css</h2>
+          <p class="my-2">
+            A utility-first CSS framework packed with classes like flex, pt-4,
+            text-center and rotate-90 that can be composed to build any design,
+            directly in your markup.
+          </p>
+          <a
+            href="skills.html#tailwind"
+            class="inline-block relative -bottom-4 px-5 py-2 my-2 font-playfair text-[#F5F5F2]/80 rounded-xl text-lg
+                   bg-white/5 backdrop-blur-md border border-white/15
+                   hover:bg-white/15 hover:border-white/30 hover:text-[#F5F5F2]
+                   transition-all duration-200"
+            >more</a
+          >
+        </div>
+        <!-- 2 -->
+        <div
+          class="relative bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-6 hover:scale-105 hover:backdrop-blur-lg transition duration-200"
+        >
+          <h2 class="font-bold text-xl uppercase">java script</h2>
+          <p class="my-2">
+            JavaScript is a powerful programming language used to create
+            interactive and dynamic websites.
+          </p>
+          <a
+            href="skills.html#js-skills"
+            class="inline-block relative -bottom-4 px-5 py-2 my-2 font-playfair text-[#F5F5F2]/80 rounded-xl text-lg
+                   bg-white/5 backdrop-blur-md border border-white/15
+                   hover:bg-white/15 hover:border-white/30 hover:text-[#F5F5F2]
+                   transition-all duration-200"
+            >more</a
+          >
+        </div>
+        <!-- 3 -->
+        <div
+          class="relative bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-6 hover:scale-105 hover:backdrop-blur-lg transition duration-200"
+        >
+          <h2 class="font-bold text-xl uppercase">css</h2>
+          <p class="my-2">
+            CSS is used to style and design web pages, including colors,
+            layouts, and fonts.
+          </p>
+          <a
+            href="skills.html#css-skills"
+            class="inline-block relative -bottom-4 px-5 py-2 my-2 font-playfair text-[#F5F5F2]/80 rounded-xl text-lg
+                   bg-white/5 backdrop-blur-md border border-white/15
+                   hover:bg-white/15 hover:border-white/30 hover:text-[#F5F5F2]
+                   transition-all duration-200"
+            >more</a
+          >
+        </div>
+        <!-- 4 -->
+        <div
+          class="relative bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-6 hover:scale-105 hover:backdrop-blur-lg transition duration-200"
+        >
+          <h2 class="font-bold text-xl uppercase">html</h2>
+          <p class="my-2">
+            HTML is the standard markup language used to create the structure
+            and content of web pages.
+          </p>
+          <a
+            href="skills.html#html-skills"
+            class="inline-block relative -bottom-4 px-5 py-2 my-2 font-playfair text-[#F5F5F2]/80 rounded-xl text-lg
+                   bg-white/5 backdrop-blur-md border border-white/15
+                   hover:bg-white/15 hover:border-white/30 hover:text-[#F5F5F2]
+                   transition-all duration-200"
+            >more</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- intruduction -->
+    <section class="font-playfair px-5 py-10 relative">
+      <div
+        id="carousel"
+        class="flex gap-4 overflow-x-auto scroll-smooth snap-x snap-mandatory [&::-webkit-scrollbar]:hidden [scrollbar-width:none]"
+      >
+        <div
+          class="relative snap-center shrink-0 w-full h-[70vh] rounded-xl overflow-hidden"
+        >
+          <img
+            src="./img/adrian-korte-5gn2soeAc40-unsplash.jpg"
+            alt="Music"
+            class="absolute inset-0 w-full h-full object-cover opacity-60"
+          />
+
+          <div
+            class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"
+          ></div>
+          <div class="absolute bottom-8 left-8 z-10">
+            <p class="text-white/50 text-sm uppercase tracking-widest mb-1">
+              01
+            </p>
+            <h2 class="text-[#F5F5F2] text-3xl uppercase mb-4">music</h2>
+            <a
+              href="anything.html"
+              class="text-white/60 text-sm uppercase tracking-widest border-b border-white/30 pb-1 hover:text-white hover:border-white transition duration-200"
+            >
+              explore →
+            </a>
+          </div>
+        </div>
+
+        <div
+          class="relative snap-center shrink-0 w-full h-[70vh] rounded-xl overflow-hidden"
+        >
+          <img
+            src="./img/jeremy-yap-J39X2xX_8CQ-unsplash.jpg"
+            alt="Movie"
+            class="absolute inset-0 w-full h-full object-cover opacity-60"
+          />
+          <div
+            class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"
+          ></div>
+          <div class="absolute bottom-8 left-8 z-10">
+            <p class="text-white/50 text-sm uppercase tracking-widest mb-1">
+              02
+            </p>
+            <h2 class="text-[#F5F5F2] text-3xl uppercase mb-4">movie</h2>
+            <a
+              href="anything.html"
+              class="text-white/60 text-sm uppercase tracking-widest border-b border-white/30 pb-1 hover:text-white hover:border-white transition duration-200"
+            >
+              explore →
+            </a>
+          </div>
+        </div>
+
+        <div
+          class="relative snap-center shrink-0 w-full h-[70vh] rounded-xl overflow-hidden"
+        >
+          <img
+            src="./img/thought-catalog-o0Qqw21-0NI-unsplash.jpg"
+            alt="Literature"
+            class="absolute inset-0 w-full h-full object-cover opacity-60"
+          />
+          <div
+            class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"
+          ></div>
+          <div class="absolute bottom-8 left-8 z-10">
+            <p class="text-white/50 text-sm uppercase tracking-widest mb-1">
+              03
+            </p>
+            <h2 class="text-[#F5F5F2] text-3xl uppercase mb-4">literature</h2>
+            <a
+              href="anything.html"
+              class="text-white/60 text-sm uppercase tracking-widest border-b border-white/30 pb-1 hover:text-white hover:border-white transition duration-200"
+            >
+              explore →
+            </a>
+          </div>
+        </div>
+        </div>
+      </div>
+      <button
+        id="prev"
+        class="absolute left-8 top-1/2 -translate-y-1/2 z-20 text-white/40 hover:text-white text-4xl transition duration-500 ease-in-out cursor-pointer"
+      >
+        &#8592;
+      </button>
+      <button
+        id="next"
+        class="absolute right-8 top-1/2 -translate-y-1/2 z-20 text-white/40 hover:text-white text-4xl transition duration-500 ease-in-out cursor-pointer"
+      >
+        &#8594;
+      </button>
+    </section>
+
+    <!-- contact -->
+    <section id="contact" class="my-12 text-[#F5F5F2] font-playfair">
+      <div class="max-w-md mx-auto px-4">
+        <div
+          class="border border-white/20 bg-white/10 backdrop-blur-md rounded-2xl p-8"
+        >
+          <form class="flex flex-col gap-8">
+            <div class="relative">
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder=" "
+                required
+                class="peer bg-zinc-700 w-full p-3 rounded-xl hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-400 hover:bg-zinc-800 transition-all duration-200 placeholder-transparent"
+              />
+              <label
+                for="name"
+                class="absolute left-3 top-4 text-sm uppercase tracking-widest text-white/60 peer-placeholder-shown:top-4 peer-focus:-top-6 peer-not-placeholder-shown:-top-2 transition-all duration-200 pointer-events-none"
+              >
+                Your Name
+              </label>
+            </div>
+
+            <!-- Email -->
+            <div class="relative">
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder=" "
+                required
+                class="peer bg-zinc-700 w-full p-3 rounded-xl hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-400 hover:bg-zinc-800 transition-all duration-200 placeholder-transparent"
+              />
+              <label
+                for="email"
+                class="absolute left-3 top-4 text-sm uppercase tracking-widest text-white/60 peer-placeholder-shown:top-4 peer-focus:-top-6 peer-not-placeholder-shown:-top-2 transition-all duration-200 pointer-events-none"
+              >
+                Your Email
+              </label>
+            </div>
+
+            <!-- Textarea -->
+            <div class="relative">
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder=" "
+                required
+                class="peer bg-zinc-700 w-full p-4 rounded-xl hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-400 hover:bg-zinc-800 transition-all duration-200 placeholder-transparent resize-y"
+              ></textarea>
+              <label
+                for="message"
+                class="absolute left-3 top-4 text-sm uppercase tracking-widest text-white/60 peer-placeholder-shown:top-4 peer-focus:-top-[36px] peer-not-placeholder-shown:-top-2 transition-all duration-200 pointer-events-none pt-2.5"
+              >
+                Your Message
+              </label>
+            </div>
+            <input
+              type="submit"
+              value="Send Message"
+              class="bg-[#F5F5F2] text-slate-950 hover:scale-105 hover:opacity-70 transition-all duration-150 py-4 rounded-xl font-medium cursor-pointer mt-4"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <hr class="w-11/12 max-w-4xl mx-auto h-[1px] bg-white my-2" />
+    <footer
+      class="mt-14 mb-10 bg-white/10 backdrop-blur-md rounded-2xl p-8 md:p-16 max-w-4xl w-[92%] md:w-[85%] mx-auto text-white font-playfair"
+    >
+      <div class="flex flex-col md:flex-row gap-8 md:gap-12">
+        <div class="flex flex-col items-center gap-2 md:w-1/3">
+          <img
+            src="img/photo_۲۰۲۶-۰۷-۱۶_۲۰-۰۸-۴۱.jpg"
+            alt="Portrait photo"
+            class="w-40 md:w-52 rounded-xl -rotate-6"
+          />
+          <span class="italic text-white/70">"fallen angel"</span>
+        </div>
+        <div class="flex-1 flex flex-col gap-3">
+          <div>
+            <span>Our Journey Is Over</span>
+            <hr class="w-36 h-[1px] bg-white my-2" />
+          </div>
+          <div>
+            <span>Social Activity</span>
+            <ul class="flex gap-3 mt-2">
+              <li class="w-10 hover:scale-110 transition duration-200">
+                <a href="#"><img src="img/instagram.svg" alt="Instagram" /></a>
+              </li>
+              <li class="w-10 hover:scale-110 transition duration-200">
+                <a href="#" target="_blank"><img src="img/telegram.svg" alt="Telegram" /></a>
+              </li>
+            </ul>
+          </div>
+          <hr class="w-full h-[1px] bg-white my-2" />
+          <span>This is a practice project built with Tailwind CSS.</span>
+          <span class="text-white/60 text-sm mt-6">Made by Jouska</span>
+        </div>
+      </div>
+    </footer>
+    <script src="myjs.js"></script>
+  </body>
+</html>

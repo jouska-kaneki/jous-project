@@ -1,0 +1,13 @@
+<svg width="400" height="80" viewBox="0 0 400 80" xmlns="http://www.w3.org/2000/svg">
+  <text
+    font-family="Georgia, serif"
+    font-weight="300"
+    font-size="48"
+    letter-spacing="10"
+    fill="#F5F5F2"
+    x="200" y="52"
+    text-anchor="middle"
+  >jouska</text>
+  <line x1="20" y1="62" x2="380" y2="62" stroke="#555" stroke-width="0.5"/>
+  <circle cx="200" cy="70" r="2.5" fill="#888"/>
+</svg>
